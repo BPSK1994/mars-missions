@@ -7,8 +7,7 @@
 }
 
 body {
-    background-color: #000;
-    /* font-family: Vogue; */
+    background-color: #fff;
 }
 
 /*
@@ -18,12 +17,13 @@ Header
 */
 
 .header {
-    max-width: 980px;
+    width: 980px;
     margin: 0px auto;
 }
 
+
 .header__heading {
-    color: #fff;
+    color: #000;
     font-family: Vogue;
     font-size: 58px;
     text-align: center;
@@ -39,7 +39,7 @@ Buttons
 */
 
 .btn-container {
-    max-width: 1280px;
+    width: 1280px;
     margin: 28px auto;
 
 }
@@ -52,20 +52,20 @@ Buttons
 }
 
 .btn {
-    background-color: #fff;
+    background-color: #a7f1a7;
     color: #282828;
     border-color: transparent;
     padding: 7px 7px;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 0 7px #999;
+    box-shadow: 0 7px #666;
     font-family: MonospaceTypewriter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     width: 118px;
 }
 
 .btn:active {
-    box-shadow: 0 3px #666;
+    box-shadow: 0 3px #333;
     transform: translateY(4px);
 }
 
@@ -76,10 +76,33 @@ Table
 ===============
 */
 
-.table__container {
-    border: 1px solid red;
+.table {
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+
+.table-container {
+    width: 1280px;
+    margin: 78px auto 48px auto;
 }
 
 .table__heading {
-    color:#fff;
+    color:#000;
+    background-color: #eaecf0;
+    width: 182.86px;
+    text-align: left;
+    font-size: 18px;
+    padding: 13px;
+    border: 2px solid #d2d2d2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.table__data {
+    color: #000;
+    padding: 13px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #d2d2d2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

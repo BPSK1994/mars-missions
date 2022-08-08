@@ -13,14 +13,15 @@
             <h1 class = "header__heading">Mission to Mars</h1>
         </div>
         <div class = "btn-container btn-container--flex">
-            <button class="btn">Show All</button>
-            <button class="btn">USSR/Russia</button>
-            <button class="btn">USA</button>
-            <button class="btn">Japan</button>
-            <button class="btn">ESA</button>
-            <button class="btn">India</button>
-            <button class="btn">China</button>
-            <button class="btn">UAE</button>
+            <button data-id = "all" class="btn">Show All</button>
+            <button data-id = "ussr" class="btn">USSR</button>
+            <button data-id = "russia" class="btn">Russia</button>
+            <button data-id = "usa" class="btn">USA</button>
+            <button data-id = "japan" class="btn">Japan</button>
+            <button data-id = "esa" class="btn">ESA</button>
+            <button data-id = "india" class="btn">India</button>
+            <button data-id = "china" class="btn">China</button>
+            <button data-id = "uae" class="btn">UAE</button>
         </div>
         <div class="table-container">
             <table class = "table">
@@ -29,13 +30,21 @@
                     <th class = "table__heading">Mission</th>
                     <th class = "table__heading">Mission Type</th>
                     <th class = "table__heading">Country</th>
-                    <th class = "table__heading">Launch Date</th>
+                    <th class = "table__heading">Launch Year</th>
                     <th class = "table__heading">Result</th>
                     <th class = "table__heading">Details</th>
                 </tr>
-                <tr>
-                    <td></td>
-                </tr>
+                <tbody class = "table__body">
+                    <tr class = "table__row">
+                        <td class = "table__data"></td>
+                        <td class = "table__data"></td>
+                        <td class = "table__data"></td>
+                        <td class = "table__data country"></td>
+                        <td class = "table__data"></td>
+                        <td class = "table__data"></td>
+                        <td class = "table__data"></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
