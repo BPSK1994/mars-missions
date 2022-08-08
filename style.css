@@ -8,6 +8,7 @@
 
 body {
     background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*
@@ -31,6 +32,18 @@ Header
     margin-top: 7px;
 }
 
+.header__img {
+    width: 120px;
+    height: 120px;
+}
+
+.header--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*
 ===============
@@ -41,7 +54,6 @@ Buttons
 .btn-container {
     width: 1280px;
     margin: 28px auto;
-
 }
 
 .btn-container--flex {
@@ -76,10 +88,6 @@ Table
 ===============
 */
 
-.table {
-    /* border-collapse: collapse; */
-    width: 100%;
-}
 
 .table-container {
     width: 1280px;
@@ -94,9 +102,8 @@ Table
     font-size: 18px;
     padding: 13px;
     border: 2px solid #d2d2d2;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
+}
 
 .table__data {
     color: #000;
@@ -104,5 +111,4 @@ Table
     font-weight: 600;
     font-size: 15px;
     border: 2px solid #d2d2d2;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
