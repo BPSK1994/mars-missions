@@ -482,7 +482,6 @@ filterBtns.forEach(function(item) {
             }
         });
 
-        console.log(countryData);
         if(country == "all") {
             displayTable(marsMissionData);
         } else {
